@@ -207,8 +207,8 @@ def main(stdscr):
 
     curses.use_default_colors()
 
-    # 设置终结状态最大数值为 32
-    game_field = GameField(win=32)
+    # 设置终结状态最大数值为 2048
+    game_field = GameField(win=2048)
 
     state = 'Init'
 
